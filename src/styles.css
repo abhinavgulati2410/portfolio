@@ -1,0 +1,727 @@
+
+
+
+@keyframes dropAnimation{
+  0%{
+    margin-top: -10px;
+  }
+  100%{
+    margin-top: 20px;
+  }
+}
+
+@keyframes fadeInAnimation{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
+.images {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 1px;
+  background-image: url("./bubbles.png");
+  background-size: 700px 800px;
+  width: 200px;
+}
+
+.nav-element {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  text-decoration: none;
+  text-decoration-color: none;
+  color: rgb(160, 157, 157);
+  margin-left: 20px;
+  opacity: 0.4;
+  font-size: 20px;
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.nav-element:hover {
+  text-decoration: none;
+  color: rgb(30, 7, 94);
+  opacity: 1;
+}
+
+.btn {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  margin-left: 10px;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  text-decoration-color: none;
+  padding: 10px;
+  border-radius: 30px;
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-shadow: black;
+}
+.btn:hover {
+  background-color: rgb(30, 7, 94);
+}
+
+.whole {
+  display: inline-block;
+}
+.about {
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  margin-bottom: 10px;
+  width: 160px;
+  padding: 10px;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.resume-btn {
+  text-decoration: none;
+  text-decoration-color: none;
+  color: white;
+  background-color: rgb(30, 7, 94);
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 12px;
+  margin-top: 25px;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.resume-btn:hover {
+  box-shadow: 3px 3px black;
+}
+
+
+.whole-skills {
+  margin-top: 100px;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+  color: rgb(30, 7, 94);
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+  margin-top: 20px;
+}
+
+
+.whole-blog {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+  text-align: center;
+}
+.ind-blog {
+  text-align: center;
+  background-color: rgb(30, 7, 94);
+  padding: 20px;
+  border-radius: 20px;
+}
+.blog-heading {
+  color: white;
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 5px;
+}
+.blog-des {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 70px;
+}
+.view-btn {
+  text-decoration: none;
+  text-decoration-color: none;
+  color: rgb(30, 7, 94);
+  background-color: white;
+  font-size: 25px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+}
+.view-btn:hover {
+  color: white;
+  background-color: black;
+}
+
+
+.contact-item {
+  text-decoration-color: none;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.contact-list {
+  margin-left: 100px;
+  color: white;
+}
+.foot {
+  text-align: center;
+  margin-top: 50px;
+}
+.mygmail {
+  color: white;
+  display: inline-block;
+  margin-left: 20px;
+}
+.built {
+  color: white;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.built-name {
+  color: turquoise;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 10px;
+}
+.copy {
+  display: flex;
+  font-size: 25px;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+}
+.last {
+  margin-top: 20px;
+}
+#copy-r {
+  border-top: 1px solid white;
+}
+.contact-item:hover {
+  color: black;
+}
+.ind-proj {
+  background-color: rgb(176, 199, 240);
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  margin-top: 20px;
+}
+.proj-des {
+  color: rgb(30, 7, 94);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 70px;
+}
+.proj-heading {
+  color: rgb(30, 7, 94);
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 5px;
+}
+.whole-coming {
+  margin-top: 20px;
+  align-items: center;
+}
+.coming {
+  width: 400px;
+  text-align: center;
+  font-size: 30px;
+  border: 3px dashed black;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: auto;
+  opacity: 0.7;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px)
+{
+  .ind-blog {
+    text-align: center;
+    background-color: rgb(30, 7, 94);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .nav-call {
+    display: inline-block;
+    margin-left: 28px;
+    padding-top: 29px;
+  }
+  .top {
+    margin-left: 48px;
+    margin-top: 20px;
+    color: rgb(30, 7, 94);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    width: 300px;
+    border-bottom: 1px solid rgb(30, 7, 94);
+    padding-left: 10px;
+    display: inline-block;
+    animation: dropAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  .cover-btn {
+    display: inline-block;
+    margin-left: 448px;
+  }
+  .whole-intro {
+    display: inline-block;
+    background-size: 1100px 800px;
+    background-repeat: no-repeat;
+    width: 55%;
+    height: 350px;
+    margin-left: 20px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  .hello {
+    color: rgb(30, 7, 94);
+    margin-left: 20px;
+    font-size: 53px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin-bottom: 5px;
+    font-weight: 900;
+  }
+
+  .i-am {
+    color: black;
+    margin-left: 20px;
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 900;
+    margin-top: 2px;
+  }
+  .images img {
+    width: 368px;
+    padding-left: 33px;
+  }
+  .line {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    margin-left: 40px;
+    font-size: 17px;
+    opacity: 0.6;
+  }
+  .whole-about {
+    margin-left: 53px;
+  }
+  .quote {
+    font-size: 22px;
+    opacity: 0.6;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(148, 148, 148);
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  .skill-div {
+    margin-top: 50px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  .skill {
+    text-align: center;
+    width:100%
+  }
+  .blog-container {
+    margin-top: 50px;
+
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  .blog-head {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    width: 500px;
+    padding: 10px;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    margin-left:56px;
+  }
+  .whole-contact {
+    background-color: rgb(30, 7, 94);
+    margin-left: 20px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 20px;
+    margin-top: 100px;
+    width: 91%;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  .hey {
+    color: white;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+  }
+  .skill img {
+    width: 64%;
+    padding-bottom: 31px;
+  }
+  .skill-head {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    width: 370px;
+    padding: 10px;
+    margin-left: 51px;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+  }
+  p.htm-desc {
+    font-size: 48px;
+    /* border-bottom: 1px solid black; */
+  }
+  p.sql-desc {
+    font-size: 48px;
+  }
+  p.python-desc {
+    font-size: 48px;
+  }
+  p.cpp-desc {
+     font-size: 48px;
+   }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px)
+{
+  .ind-blog {
+    text-align: center;
+    background-color: rgb(30, 7, 94);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .nav-call {
+    display: inline-block;
+    margin-left: 28px;
+    padding-top: 29px;
+  }
+  .top {
+    margin-left: 48px;
+    margin-top: 20px;
+    color: rgb(30, 7, 94);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    width: 300px;
+    border-bottom: 1px solid rgb(30, 7, 94);
+    padding-left: 10px;
+    display: inline-block;
+    animation: dropAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  .cover-btn {
+    display: inline-block;
+    margin-left: 448px;
+  }
+  .whole-intro {
+    display: inline-block;
+    background-size: 1100px 800px;
+    background-repeat: no-repeat;
+    width: 55%;
+    height: 350px;
+    margin-left: 20px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  .hello {
+    color: rgb(30, 7, 94);
+    margin-left: 20px;
+    font-size: 53px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin-bottom: 5px;
+    font-weight: 900;
+  }
+
+  .i-am {
+    color: black;
+    margin-left: 20px;
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 900;
+    margin-top: 2px;
+  }
+  .images img {
+    width: 368px;
+    padding-left: 33px;
+  }
+  .line {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    margin-left: 40px;
+    font-size: 51px;
+    opacity: 0.6;
+  }
+  .whole-about {
+    margin-left: 53px;
+  }
+  .quote {
+    font-size: 52px;
+    opacity: 0.6;
+    margin-top: 40px;
+    color: rgb(148, 148, 148);
+    margin-bottom: 50px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  .skill-div {
+    margin-top: 50px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  .skill {
+    text-align: center;
+
+    width:100%
+  }
+  .blog-container {
+    margin-top: 50px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  .blog-head {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    width: 500px;
+    padding: 10px;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    margin-left:56px;
+  }
+  .whole-contact {
+    background-color: rgb(30, 7, 94);
+    margin-left: 20px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 20px;
+    margin-top: 100px;
+    width: 91%;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  .hey {
+    color: white;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+  }
+  .skill img {
+    width: 64%;
+    padding-bottom: 31px;
+  }
+  .skill-head {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    width: 370px;
+    padding: 10px;
+    margin-left: 51px;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+  }
+  p.htm-desc {
+    font-size: 48px;
+    /* border-bottom: 1px solid black; */
+  }
+  p.sql-desc {
+    font-size: 48px;
+  }
+  p.python-desc {
+    font-size: 48px;
+  }
+  p.cpp-desc {
+    font-size: 48px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1980px)
+{
+  .nav-call {
+    display: inline-block;
+    margin-left: 200px;
+  }
+  .top {
+    margin-left: 100px;
+    margin-top: 20px;
+    color: rgb(30, 7, 94);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    width: 300px;
+    border-bottom: 1px solid rgb(30, 7, 94);
+    padding-left: 10px;
+    display: inline-block;
+    animation: dropAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  .cover-btn {
+    display: inline-block;
+    margin-left: 200px;
+  }
+  .whole-intro {
+    display: inline-block;
+    background-size: 1100px 800px;
+    background-repeat: no-repeat;
+    width: 55%;
+    height: 350px;
+    margin-left: 20px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  .hello {
+    color: rgb(30, 7, 94);
+    margin-left: 20px;
+    font-size: 70px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin-bottom: 5px;
+    font-weight: 900;
+  }
+
+  .i-am {
+    color: black;
+    margin-left: 20px;
+    font-size: 70px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 900;
+    margin-top: 2px;
+  }
+  .line {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 30px;
+    opacity: 0.6;
+  }
+  .whole-about {
+    margin-left: 100px;
+  }
+  .quote {
+    font-size: 100px;
+    opacity: 0.6;
+    color: rgb(148, 148, 148);
+    margin-top: 40px;
+    margin-bottom: 50px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  .skill-div {
+    margin-left: 100px;
+    margin-top: 50px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  .skill {
+    text-align: center;
+    margin-left: 300px;
+  }
+  .blog-container {
+    margin-top: 50px;
+    margin-left: 100px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  .blog-head {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    width: 500px;
+    padding: 10px;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+  }
+  .whole-contact {
+    background-color: rgb(30, 7, 94);
+    margin-left: 20px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 20px;
+    margin-top: 100px;
+    width: 70%;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  .hey {
+    color: white;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+  }
+  .skill-head {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    width: 370px;
+    padding: 10px;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+  }
+}
+
